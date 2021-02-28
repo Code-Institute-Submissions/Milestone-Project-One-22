@@ -1,6 +1,7 @@
 # The Dolmen Website
 
-This is a website to advertise The Dolmen, a band based in the South West of England. It will appeal to new and current fans who would like to keep up to date or get familiar with The Dolmen
+This is a website to advertise The Dolmen, a band based in the South West of England.
+It will appeal to new and current fans who would like to keep up to date or get familiar with The Dolmen.
 
 # UX
 
