@@ -13,57 +13,56 @@
 
 <body>
     <header>
-        <div class="container">
-            <div class="row">
-                <nav class="navbar navbar-dark bg-dark navbar-expand-sm">
-                    <a href="/" class="navbar-brand logo uppercase">The Dolmen</a>
 
-                    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
-                        data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span></button>
-
-                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-
-                        <ul class="navbar-nav mr-auto">
-                            <li class="nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
-                            <li class="nav-item mr-2"><a class="nav-link" href="#">|</a></li>
-                            <li class="nav-item mr-2"><a class="nav-link" href="events.html">Events</a></li>
-                            <li class="nav-item mr-2"><a class="nav-link" href="#">|</a></li>
-                            <li class="active nav-item mr-2"><a class="nav-link" href="gallery.html">Gallery</a></li>
-                        </ul>
-                    </div>
-
-                </nav>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+            <a class="navbar-brand uppercase logo" href="/">The Dolmen</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="events.html">Events</a></li>
+                    <li class="active nav-item mr-2"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                </ul>
             </div>
-        </div>
+        </nav>
+
     </header>
-    <section>
-        <div class="container">
-            <div class="row">
-                <img src="/assets/images/dolmen_2018.jpg" alt="The Dolmen 2018" class="home-image center">
-            </div>
-        </div>
 
-        <div class="container">
-            <div class="row">
-                <h2 class="about-us-text center uppercase">
-                    About Us
-                </h2>
-            </div>
-            <div class="row">
-                <p class="about-us-text center">
-                    The Dolmen are a relentless organic Celtic rock band born from the county of Dorset, England.
-                    Their mission has been to infiltrate the minds and souls of a growing audience with their tribal
-                    rhythms and powerful spiritual renditions.
-                </p>
-            </div>
+
+    <section class="gallery-section1">
+        <div>
+            <h1 class="gallery-text uppercase">
+                Our Gallery
+            </h1>
         </div>
     </section>
+
+    <section class="gallery-section2 gallery-photos" id="photos">
+        <div>
+            <img src="assets/images/chris-drummer.jpg" alt="Chris Harris, Drummer">
+            <img src="assets/images/kayleigh-bassist.jpg" alt="kayleigh Merchant, Bassist">
+            <img src="assets/images/anja-kayleigh.jpg" alt="Anja and Kayleigh">
+            <img src="assets/images/castlefest.jpg" alt="Castlefest">
+            <img src="assets/images/dolmen-2015.jpg" alt="The Dolmen Castlefest 2015">
+            <img src="assets/images/festival-ned.jpg" alt="The Dolmen Castlefest">
+            <img src="assets/images/taloch-chris-josh.jpg" alt="Taloch, Chris and Josh Castlefest 2015">
+            <img src="assets/images/taloch-castlefest.jpg" alt="Taloch, Lead Vocals">
+            <img src="assets/images/josh-guitarist.jpg" alt="Josh Elliot, Guitarist">
+            <img src="assets/images/taloch-the-dolmen.jpg" alt="Taloch on the drum">
+        </div>
+    </section>
+
     <footer>
-        <div class="container">
-            <div class="row bg-dark">
-                <h3 class="footer-text">Follow Us!</h3>
+        <div class="container-fluid">
+            <div class="row bg-dark footer">
+
+                <h3 class="footer-text">
+                    Follow Us!
+                </h3>
+
                 <ul>
                     <li class="list-inline-item"><a href="#"><i class="fa fa-facebook-square footer-icon"
                                 aria-hidden="true"></i></a></li>
@@ -77,6 +76,15 @@
             </div>
         </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
