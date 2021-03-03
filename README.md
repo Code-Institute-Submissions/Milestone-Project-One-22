@@ -53,7 +53,7 @@ Gallery - The photos in the gallery respond well to different screen resolutions
 Bootstrap 4.1.3 - https://blog.getbootstrap.com/2018/07/24/bootstrap-4-1-3/
 
 # Deployment 
-
+** https://richardlatham97.github.io/Milestone-Project-One/**
 # Credits
 
 ## Content
